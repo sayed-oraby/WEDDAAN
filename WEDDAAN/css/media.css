@@ -1,0 +1,216 @@
+/* *****************************Start Media Query*************************** */
+
+@media (max-width: 390px) { 
+    
+    .about .span-before,.myprogress-bar .span-before, .skills .span-before,.Statistics .span-before,
+    .Contact-Us .span-before,.blog .span-before { width: 40px; }
+
+    .about .span-after,.myprogress-bar .span-after, .skills .span-after,.Statistics .span-after,
+    .Contact-Us .span-after,.blog .span-after {  width: 40px; }
+    
+    .about .span-before { left: 21.5%;}
+    
+    .myprogress-bar .span-before { left: 8.5%;} 
+    
+    .skills .span-before { left: 8.5%;}
+    
+    .Statistics .span-before { left: 17.5%;}
+    
+    .blog .span-before { left: 12.5%;}
+    
+    .Contact-Us .span-before { left: 19.5%;}
+    
+    .loading-overlay h1 { font-size: 25px;font-weight: bold; margin:100px auto 50px; }
+    
+    .loading-overlay p { margin: 0 auto 50px;font-size: 17px }
+    
+    .sk-cube-grid { width: 50px; height: 50px; }
+}
+
+/* ************************************************************************************************************ */
+
+@media (min-width: 391px) and (max-width: 767px) {
+            
+    .about .span-before { left: 22.5%;}
+    
+    .myprogress-bar .span-before { left: 12.5%;} 
+    
+    .skills .span-before { left: 12.5%;}
+    
+    .Statistics .span-before { left: 17.5%;}
+    
+    .blog .span-before { left: 14.5%;}
+    
+    .Contact-Us .span-before { left: 21.5%;}
+    
+    /* ****************************************** */
+    
+    .about .span-after { left: 64%;}
+    
+    .myprogress-bar .span-after { left: 75%;} 
+    
+    .skills .span-after { left: 75%;}
+    
+    .Statistics .span-after { left: 68%;}
+    
+    .blog .span-after { left: 73%;}
+    
+    .Contact-Us .span-after { left: 67%;}
+    
+    .loading-overlay h1 { font-size: 25px;font-weight: bold; margin:100px auto 50px; }
+    
+    .loading-overlay p { margin: 0 auto 50px;font-size: 17px }
+    
+    .sk-cube-grid { width: 50px; height: 50px; }
+}
+
+
+/* ******************************************************************************************************* */
+
+
+/*  Medium devices (tablets, 768px and up)  */
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .navbar .container { width: 100% }
+    
+    .navbar .navbar-header { width: 25% }
+    
+    .navbar .navbar-collapse { width: 100% }
+    
+    .container-fluid>.navbar-collapse,
+    .container-fluid>.navbar-header,
+    .container>.navbar-collapse,
+    .container>.navbar-header { padding-top: 4px; padding-bottom: 4px; }
+    
+    .navbar-default .navbar-nav>li>a { font-weight: normal }
+    
+    .navbar-nav>li { margin-left: 7px; margin-right: 7px; }
+    
+    .navbar>.container .navbar-brand,
+    .navbar>.container-fluid .navbar-brand { margin-left: 5px }
+    
+    .navbar-brand { padding-top: 13px; padding-left: 13px }
+    
+    .navbar-right { margin-right: 2px; margin-top: 5px }
+    
+    .navbar-default .navbar-nav>li>a:focus,
+    .navbar-default .navbar-nav>li>a:hover { color: #ff2b42; font-size: 14px; font-weight: 900;
+        background-color: transparent; }
+    
+    #intro { top: 50% }
+    
+    #intro .intro-parag { margin-top: 0 }
+    
+    .skills .da-thumbs li:nth-of-type(1) .skills-img , 
+    .skills .da-thumbs li:nth-of-type(3) .skills-img ,
+    .skills .da-thumbs li:nth-of-type(5) .skills-img ,
+    .skills .da-thumbs li:nth-of-type(7) .skills-img { margin-left: 30px }
+    
+    .skills .da-thumbs li:nth-of-type(2) .skills-img , 
+    .skills .da-thumbs li:nth-of-type(4) .skills-img ,
+    .skills .da-thumbs li:nth-of-type(6) .skills-img ,
+    .skills .da-thumbs li:nth-of-type(8) .skills-img { margin-left: -30px }
+    .myprogress-bar { min-height: 400px }
+
+    .skills .skills-heading { margin-bottom: 30px }
+    
+    .Statistics { min-height: 650px }
+    
+    .Statistics .Statistics-counter .count { margin-top: 12px }
+    
+    .Statistics-counter { margin-bottom: 50px}
+    
+    .testimonials .carousel-indicators { bottom: -36px }
+    
+    .testimonials { padding-bottom: 65px}
+    
+    .blog .blog-overlay {top: -202px}
+
+    .blog .blog-img:hover .blog-overlay  { top: 0px; transition: all 1s ease-in-out }
+    
+    .Footer h4 { color: #FFF}
+    
+    .Scroll-top { bottom: 1% }
+    
+    .blog .blog-posts .myspan { bottom: 49.5%}
+
+}
+
+/* ******************************************************************************************************* */
+
+/*  Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px) {
+    
+    .skills .skills-heading { margin-bottom: 30px }
+    
+    .skills .skills-img { width: 190px; height: 150px;}
+    
+    .skills .skills-img .overlay-content { left: 17%;top: 28% }
+    
+    .skills .skills-img .overlay-content h4 { font-size: 15px;}
+    
+    .blog .blog-posts .myspan { bottom: 41.5%}
+}
+
+/* ******************************************************************************************************* */
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}
+
+/* *************************************End Media Query*************************************************** */
+
+@media (min-width: 300px) and (max-width: 767px) {
+    
+     #intro { top: 50% }
+    
+    #intro .intro-parag { margin-top: 0 }
+    
+    #intro p.first { font-size: 20px }
+    
+    #intro p.second { font-size: 12px }
+    
+    .about .img-responsive { margin: auto; margin-bottom: 30px }
+    
+    .about .myspan { margin-bottom: 15px; margin-left: 20px }
+    
+    .about p { margin-bottom: 20px; margin-left: 20px }
+    
+    .about .btn { display: block; width: 70%; padding: 5px 11px; margin: auto; margin-bottom: 8px;}
+    
+    .myprogress-bar { min-height: 800px }
+    
+    .skills .skills-img { margin: auto}
+    
+    .skills #Grid { margin-left: 0 }
+    
+    .skills #Grid .col-md-3 { margin-left: -30px}
+    
+    .Statistics { min-height: 1100px }
+    
+    .Statistics .Statistics-counter .count { margin-top: 12px }
+    
+    .Statistics-counter { margin-bottom: 50px}
+    
+    .blog .blog-posts .myspan { display: none}
+    
+    .blog .blog-parag { margin-bottom: 25px}
+    
+    .blog .blog-overlay .fa { font-size: 30px; top: 41%;left: 41%}
+    
+    .Contact-Us textarea , .Contact-Us .contact-button button { margin-left: 0;margin-top: 3px}
+    
+    .Footer h4 { color: #FFF}
+    
+    .Footer .copyright, .Footer .social-media { font-size: 20px; float: none !important; text-align: center; }
+    
+    .Footer .copyright a { display: block; margin-top: 10px !important; margin-bottom: 10px !important; }
+
+    .blog-content { width: 97% }
+    
+    /* ****************************************************** */
+    
+    .about h2, .myprogress-bar h2, .skills h2, .Statistics h2, .blog h2, .Contact-Us h2 { font-size: 23px}
+        
+    .about .span-before,.myprogress-bar .span-before, .skills .span-before,.Statistics .span-before,
+    .Contact-Us .span-before,.blog .span-before { top: 42px; }
+}
